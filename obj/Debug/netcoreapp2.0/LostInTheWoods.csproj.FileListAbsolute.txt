@@ -1,0 +1,10 @@
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/bin/Debug/netcoreapp2.0/LostInTheWoods.deps.json
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/bin/Debug/netcoreapp2.0/LostInTheWoods.runtimeconfig.json
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/bin/Debug/netcoreapp2.0/LostInTheWoods.runtimeconfig.dev.json
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/bin/Debug/netcoreapp2.0/LostInTheWoods.dll
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/bin/Debug/netcoreapp2.0/LostInTheWoods.pdb
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/obj/Debug/netcoreapp2.0/LostInTheWoods.csproj.CoreCompileInputs.cache
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/obj/Debug/netcoreapp2.0/LostInTheWoods.AssemblyInfoInputs.cache
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/obj/Debug/netcoreapp2.0/LostInTheWoods.AssemblyInfo.cs
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/obj/Debug/netcoreapp2.0/LostInTheWoods.dll
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/obj/Debug/netcoreapp2.0/LostInTheWoods.pdb

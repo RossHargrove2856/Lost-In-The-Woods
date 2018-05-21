@@ -1,0 +1,24 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using LostInTheWoods.Models
+@model LostInTheWoods.Models.Trail
+<div class="container">
+    <h3>List of all Trails</h3>
+    <table class="table">
+        <tr>
+            <th>Trail Name</th>
+            <th>Trail Length</th>
+            <th>Elevation Change</th>
+        </tr>
+        <tr>
+            @foreach(var trail in ViewBag.Trails) {
+                <td><a href="/Trails/@trail.Id">@trail.Name</a></td>
+                <td>@trail.Length miles</td>
+                <td>@trail.Elevation feet</td>
+            }
+        </tr>
+    </table>
+    <a class="btn btn-default" href="/NewTrail">Add a New Trail</a>
+</div>

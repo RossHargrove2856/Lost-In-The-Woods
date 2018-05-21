@@ -1,0 +1,20 @@
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@using LostInTheWoods.Models
+@model LostInTheWoods.Models.Trail
+<div class="container">
+    <a href="/Trails">View All Trails</a>
+    <h3>@ViewBag.Trail.Name</h3>
+    <h5>Description</h5>
+    <p>@ViewBag.Trail.Description</p>
+    <h5>Length</h5>
+    <p>@ViewBag.Trail.Length miles</p>
+    <h5>Elevation</h5>
+    <p>@ViewBag.Trail.Elevation feet</p>
+    <h5>Latitude</h5>
+    <p>@ViewBag.Trail.Latitude</p>
+    <h5>Longtitude</h5>
+    <p>@ViewBag.Trail.Longitude</p>
+</div>
