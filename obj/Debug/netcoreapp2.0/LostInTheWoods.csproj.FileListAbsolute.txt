@@ -8,3 +8,4 @@
 /Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/obj/Debug/netcoreapp2.0/LostInTheWoods.AssemblyInfo.cs
 /Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/obj/Debug/netcoreapp2.0/LostInTheWoods.dll
 /Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/obj/Debug/netcoreapp2.0/LostInTheWoods.pdb
+/Users/RossHargrove/Desktop/CodingDojo_C#/ASP.NET_ORMs/dapper/LostInTheWoods/obj/Debug/netcoreapp2.0/LostInTheWoods.csprojResolveAssemblyReference.cache
