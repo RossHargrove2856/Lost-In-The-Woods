@@ -4,11 +4,12 @@
 
 @using LostInTheWoods.Models
 @model LostInTheWoods.Models.Trail
-<div class="siimple-grid">
-    <a href="/Trails">View All Trails</a>
-    <div class="siimple-grid-row">
-        <div class="siimple-grid-col siimple-grid-col--5">
-            <h3>@ViewBag.Trail.Name</h3>
+<div class="container">
+    <div class="row col s12 center-align">
+        <h3>@ViewBag.Trail.Name</h3>
+    </div>
+    <div class="row">
+        <div class="col s5">
             <h5>Description</h5>
             <p>@ViewBag.Trail.Description</p>
             <h5>Length</h5>
@@ -20,19 +21,23 @@
             <h5>Longtitude</h5>
             <p>@ViewBag.Trail.Longitude</p>
         </div>
-        <div class="siimple-grid-col siimple-grid-col--7">
+        <div class="col s7">
+            <h5>Map</h5>
             <div id="map">
-                <script>
-                var map;
-                function initMap() {
-                    map = new google.maps.Map(document.getElementById('map'), {
-                    center: {lat: @ViewBag.Trail.Latitude, lng: @ViewBag.Trail.Longitude},
-                    zoom: 8
-                    });
-                }
+                <script type="text/javascript">
+                    var map;
+                    var latitude = @Html.Raw(ViewBag.Trail.Latitude);
+                    var longitude = @Html.Raw(ViewBag.Trail.Longitude)
+                    function initMap() {
+                        map = new google.maps.Map(document.getElementById('map'), {
+                        center: {lat: latitude, lng: longitude},
+                        zoom: 8
+                        });
+                    }
                 </script>
                 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJJ-BTeQz4sjzLmx8QoV_8pRPFymxygHM&callback=initMap"
-                async defer></script>
+                async defer>
+                </script>
             </div>
         </div>
     </div>

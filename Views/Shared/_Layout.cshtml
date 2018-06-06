@@ -6,38 +6,43 @@
     <title>@ViewData["Title"] - LostInTheWoods</title>
 
     <environment include="Development">
-        <link rel="stylesheet" href="~/lib/Semantic-UI/semantic.css" />
+        <link rel="stylesheet" href="~/lib/materialize/css/materialize.css" />
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment exclude="Development">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.0.0/dist/siimple.min.css"
-              asp-fallback-href="~/lib/Semantic-UI/semantic.min.css"
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css"
+              asp-fallback-href="~/lib/materialize/css/materialize.min.css"
               asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
         <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
     </environment>
 </head>
+
 <body>
-    <nav>
-        <div class="siimple-navbar">
-            <div class="siimple-layout--left">
-                <a asp-area="" asp-controller="Home" asp-action="Home" class="siimple-navbar-title">Lost In The Woods</a>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <a asp-area="" asp-controller="Home" asp-action="Home" class="brand-logo center">Lost In The Woods</a>
+                <ul class="right">
+                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Trails</a></li>
+                    <li><a asp-area="" asp-controller="Home" asp-action="NewTrail">Add</a></li>
+                </ul>
             </div>
-            <div class="siimple-layout--right">
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="siimple-navbar-link">Home</a>
-                <a asp-area="" asp-controller="Home" asp-action="NewTrail" class="siimple-navbar-link">Add</a>
-            </div>
-        </div>
-    </nav>
-    <div class="container body-content">
+        </nav>
+    </div>
+
+    <div>
         @RenderBody()
-        <hr />
-        <footer>
-            <p>&copy; 2018 - LostInTheWoods</p>
+        <footer class="page-footer center-align bg-color">
+            <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-buddha" title="Pixel Buddha">Pixel Buddha</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+            <div class="footer-copyright">
+                <p>&copy; 2018 - LostInTheWoods</p>
+            </div>
         </footer>
     </div>
 
     <environment include="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/materialize/js/materialize.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
     </environment>
     <environment exclude="Development">
@@ -46,6 +51,9 @@
                 asp-fallback-test="window.jQuery"
                 crossorigin="anonymous"
                 integrity="sha384-K+ctZQ+LL8q6tP7I94W+qzQsfRV2a+AfHIi9k8z8l9ggpc8X+Ytst4yBo/hH+8Fk">
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"
+                asp-fallback-src="~/lib/materialize/js/materialize.min.js">
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>

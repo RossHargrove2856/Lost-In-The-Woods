@@ -2,17 +2,26 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="row">
-    <div class="col-md-3">
-        <h2>All Trails</h2>
-        <ul>
-            <li><a href="/Trails">View all trails that have been added</a></li>
-        </ul>
+<div class="container">
+    <div class="row">
+        <div class="col s7 center-align">
+            <h3>Welcome to Lost in the Woods</h3>
+            <p>A community that allows people to discover new outdoor places to explore</p>
+        </div>
+        <div class="col s5"  id="icon-wrapper">
+            <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCAyODAuMDI4IDI4MC4wMjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDI4MC4wMjggMjgwLjAyODsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxnPgoJPHBhdGggc3R5bGU9ImZpbGw6I0RCREVFMDsiIGQ9Ik0yNzAuNDAxLDkzLjYzNGMwLTEuNzUsMC44NzUtNC4zNzUsMC44NzUtNi4xMjZjMC0xOS4yNTItMTUuNzUyLTM1LjAwMy0zNS4wMDMtMzUuMDAzICAgYy0xNC4wMDEsMC0yNS4zNzcsNy44NzYtMzEuNTAzLDE5LjI1MmMtNC4zNzUtNi4xMjYtMTIuMjUxLTEwLjUwMS0yMS4wMDItMTAuNTAxYy0xNC44NzYsMC0yNi4yNTMsMTEuMzc2LTI2LjI1MywyNi4yNTMgICBjMCwxLjc1LDAsNC4zNzUsMC44NzUsNi4xMjZjLTYuMTI2LDUuMjUxLTkuNjI2LDEyLjI1MS05LjYyNiwyMC4xMjdjMCwxNC44NzYsMTEuMzc2LDI2LjI1MywyNi4yNTMsMjYuMjUzaDc4Ljc1OCAgIGMxNC44NzYsMCwyNi4yNTMtMTEuMzc2LDI2LjI1My0yNi4yNTNDMjgwLjAyNywxMDUuODg1LDI3Ni41MjcsOTguODg1LDI3MC40MDEsOTMuNjM0eiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6IzNEQjM5RTsiIGQ9Ik0xNDAuMDE0LDBsMTQwLjAxNCwyODAuMDI3SDBMMTQwLjAxNCwweiIvPgoJPGc+CgkJPGc+CgkJCTxnPgoJCQkJPHBhdGggc3R5bGU9ImZpbGw6I0U0RTdFNzsiIGQ9Ik04Ny41MDksOTYuMjU5bDI2LjI1MywyNi4yNTNsMjYuMjUzLTI2LjI1M2wyNi4yNTMsMjYuMjUzbDI2LjI1My0yNi4yNTNMMTQ4Ljc2NSwwaC0xNy41MDIgICAgICBMODcuNTA5LDk2LjI1OXoiLz4KCQkJPC9nPgoJCTwvZz4KCTwvZz4KCTxwYXRoIHN0eWxlPSJmaWxsOiM0QTRBNEE7IiBkPSJNMTU3LjUxNSwyNTMuNzc1aDE3LjUwMnYyNi4yNTNoLTE3LjUwMlYyNTMuNzc1eiIvPgoJPHBvbHlnb24gc3R5bGU9ImZpbGw6IzI3NzI2NDsiIHBvaW50cz0iMjEwLjAyMSwyNTMuNzc1IDE4Mi4wMTgsMjE4Ljc3MSAyMDEuMjcsMjE4Ljc3MSAxNjYuMjY2LDE3NS4wMTcgMTMxLjI2MywyMTguNzcxICAgIDE1MC41MTUsMjE4Ljc3MSAxMjIuNTEyLDI1My43NzUgICIvPgoJPHBvbHlnb24gc3R5bGU9ImZpbGw6IzM0OTg4NjsiIHBvaW50cz0iNjEuMjU2LDE1Ny41MTUgMCwyODAuMDI3IDguNzUxLDI4MC4wMjcgMTI5LjUxMywxNTcuNTE1ICAiLz4KCTxwYXRoIHN0eWxlPSJmaWxsOiNFQ0VFRUU7IiBkPSJNMTIxLjYzNywxMjguNjM4YzAtMS43NSwwLjg3NS00LjM3NSwwLjg3NS02LjEyNmMwLTE5LjI1Mi0xNS43NTItMzUuMDAzLTM1LjAwMy0zNS4wMDMgICBjLTE0LjAwMSwwLTI1LjM3Nyw3Ljg3Ni0zMS41MDMsMTkuMjUyYy00LjM3NS02LjEyNi0xMi4yNTEtMTAuNTAxLTIxLjAwMi0xMC41MDFjLTE0Ljg3NiwwLTI2LjI1MywxMS4zNzYtMjYuMjUzLDI2LjI1MyAgIGMwLDEuNzUsMCw0LjM3NSwwLjg3NSw2LjEyNkMzLjUsMTMzLjg4OCwwLDE0MC44ODksMCwxNDguNzY1YzAsMTQuODc2LDExLjM3NiwyNi4yNTMsMjYuMjUzLDI2LjI1M2g3OC43NTggICBjMTQuODc2LDAsMjYuMjUzLTExLjM3NiwyNi4yNTMtMjYuMjUzQzEzMS4yNjMsMTQwLjg4OSwxMjcuNzYyLDEzMy44ODgsMTIxLjYzNywxMjguNjM4eiIvPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+CjxnPgo8L2c+Cjwvc3ZnPgo=" class="trails-icon" />
+        </div>
     </div>
-    <div class="col-md-3">
-        <h2>Add Trail</h2>
-        <ul>
-            <li><a href="/NewTrail">Add a new trail for others to see</a></li>
-        </ul>
+</div>
+<div class="row center-align" id="index-links">
+    <div class="section col s6">
+        <h4>All Trails</h4>
+        <p>View all trails that have been added.</p>
+        <a href="/Trails" class="waves-effect waves-light btn btn-color">Trails</a>
+    </div>
+    <div class="section col s6">
+        <h4>Add a Trail</h4>
+        <p>Add a new trail for others to see.</p>
+        <a href="/NewTrail" class="waves-effect waves-light btn btn-color">Add Trail</a>
     </div>
 </div>
